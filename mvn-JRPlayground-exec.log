@@ -1,0 +1,27 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36morg.example:java-reachable-goof[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding java-reachable-goof 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:3.1.1:java[m [1m(default-cli)[m @ [36mjava-reachable-goof[0;1m ---[m
+[Hello, World]
+[[1;33mWARNING[m] 
+[1;31mjava.lang.IllegalArgumentException[m: [1;31mArchive doesnt exist[m
+    [1mat[m org.nd4j.util.ArchiveUtils.unzipFileTo ([1mArchiveUtils.java:52[m)
+    [1mat[m Unzipper.main ([1mUnzipper.java:11[m)
+    [1mat[m org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0 ([1mExecJavaMojo.java:283[m)
+    [1mat[m java.lang.Thread.run ([1mThread.java:829[m)
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.376 s
+[[1;34mINFO[m] Finished at: 2023-11-19T19:03:49-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.codehaus.mojo:exec-maven-plugin:3.1.1:java[m [1m(default-cli)[m on project [36mjava-reachable-goof[m: [1;31mAn exception occurred while executing the Java class. Archive doesnt exist[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

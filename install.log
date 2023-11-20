@@ -1,0 +1,115 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+default-jre is already the newest version (2:1.11-72build2).
+0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+default-jdk is already the newest version (2:1.11-72build2).
+0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+[1mApache Maven 3.6.3[m
+Maven home: /usr/share/maven
+Java version: 11.0.20.1, vendor: Ubuntu, runtime: /usr/lib/jvm/java-11-openjdk-amd64
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "6.2.0-36-generic", arch: "amd64", family: "unix"
+Reading package lists...
+Building dependency tree...
+Reading state information...
+curl is already the newest version (7.81.0-1ubuntu1.14).
+0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+
+================================================================================
+================================================================================
+
+                              DEPRECATION WARNING                            
+
+  Node.js 13.x is no longer actively supported!
+
+  You will not receive security or critical stability updates for this version.
+
+  You should migrate to a supported version of Node.js as soon as possible.
+  Use the installation script that corresponds to the version of Node.js you
+  wish to install. e.g.
+
+   * https://deb.nodesource.com/setup_16.x — Node.js 16 "Gallium"
+   * https://deb.nodesource.com/setup_18.x — Node.js 18 LTS "Hydrogen" (recommended)
+   * https://deb.nodesource.com/setup_19.x — Node.js 19 "Nineteen"
+   * https://deb.nodesource.com/setup_20.x — Node.js 20 "Iron" (current)
+
+  Please see https://github.com/nodejs/Release for details about which
+  version may be appropriate for you.
+
+  The NodeSource Node.js distributions repository contains
+  information both about supported versions of Node.js and supported Linux
+  distributions. To learn more about usage, see the repository:
+    https://github.com/nodesource/distributions
+
+================================================================================
+================================================================================
+
+Continuing in 20 seconds ...
+
+
+================================================================================
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+================================================================================
+
+                           SCRIPT DEPRECATION WARNING                    
+
+  
+  This script, located at https://deb.nodesource.com/setup_X, used to
+  install Node.js is deprecated now and will eventually be made inactive.
+
+  Please visit the NodeSource distributions Github and follow the
+  instructions to migrate your repo.
+  https://github.com/nodesource/distributions
+
+  The NodeSource Node.js Linux distributions GitHub repository contains
+  information about which versions of Node.js and which Linux distributions
+  are supported and how to install it.
+  https://github.com/nodesource/distributions
+
+
+                          SCRIPT DEPRECATION WARNING
+
+================================================================================
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+================================================================================
+
+TO AVOID THIS WAIT MIGRATE THE SCRIPT
+Continuing in 60 seconds (press Ctrl-C to abort) ...
+
+
+## Installing the NodeSource Node.js 13.x repo...
+
+
+## Populating apt-get cache...
+
++ apt-get update
+Get:1 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+Hit:2 http://us.archive.ubuntu.com/ubuntu jammy InRelease
+Get:3 http://us.archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+Hit:4 http://us.archive.ubuntu.com/ubuntu jammy-backports InRelease
+Hit:5 https://ppa.launchpadcontent.net/git-core/ppa/ubuntu jammy InRelease
+Get:6 http://us.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [1,162 kB]
+Get:7 http://us.archive.ubuntu.com/ubuntu jammy-updates/universe i386 Packages [664 kB]
+Get:8 http://us.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [998 kB]
+Fetched 3,053 kB in 2s (1,408 kB/s)
+Reading package lists...
+
+## Confirming "jammy" is supported...
+
++ curl -sLf -o /dev/null 'https://deb.nodesource.com/node_13.x/dists/jammy/Release'
+
+## Your distribution, identified as "jammy", is not currently supported, please contact NodeSource at https://github.com/nodesource/distributions/issues if you think this is incorrect or would like your distribution to be considered for support
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+nodejs is already the newest version (12.22.9~dfsg-1ubuntu3.1).
+0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+
+up to date, audited 1 package in 695ms
+
+found 0 vulnerabilities
