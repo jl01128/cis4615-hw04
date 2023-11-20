@@ -1,9 +1,0 @@
-
-Monitoring /home/vboxuser/cis4615-hw04/java-reachability-playground (org.example:java-reachable-goof)...
-
-Explore this snapshot at https://app.snyk.io/org/jl01128/project/48453154-186e-46af-b921-38db1c5073c7/history/51392130-dbb5-446c-a20e-86bf1e0b197d
-
-Tip: Detected multiple supported manifests (1), use --all-projects to scan all of them at once.
-
-Notifications about newly disclosed issues related to these dependencies will be emailed to you.
-
